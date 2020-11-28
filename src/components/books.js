@@ -7,6 +7,7 @@ import available from '../images/available.jpg'
 
 const db = firebase.firestore();
 class Books extends Component {
+    
     state ={
         books : [],
         BookName:'',
@@ -43,7 +44,7 @@ class Books extends Component {
                         return(
                             <Col lg={3} md={6} xs={12} style={{marginBottom: "30px"}} key={item}>
                                     <Card>
-                                        <Card.Body>
+                                        <Card.Body  className='text-capitalize'>
                                             <p>{item.Bookname}</p>
                                             <p>{item.Author}</p>
                                             <p>{item.Price}</p>
