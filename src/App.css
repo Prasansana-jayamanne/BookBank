@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   
@@ -48,6 +52,12 @@ font-size: x-large;
 }
 
 .nav-text {
-  font-size: 40px;
+  font-size: x-large;
   
+}
+.nav-link {
+  font-size: x-large;
+}
+.navbar-brand{
+  font-size: x-large;
 }

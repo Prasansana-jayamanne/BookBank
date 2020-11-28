@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { Container, Col, Row, Carousel } from 'react-bootstrap';
+import React, { Component, } from 'react';
+import { Carousel, Container, Col, Row } from 'react-bootstrap';
+
 
 import "../stylesheets/home.css";
 
@@ -12,7 +13,7 @@ import cover03 from '../images/cover03.jpg'
 class Home extends Component {
     render() {
         return (
-            <div className='jumbotron'>
+            <div className='jumbotrone'>
                 <Carousel>
                     <Carousel.Item interval={3000}>
                         <img
@@ -24,12 +25,12 @@ class Home extends Component {
                             <h3 className='caption-text'>Read More <br />Live More</h3>
                             <Container>
 
-                                <Row className='caption-row'>
-                                    <Col>Facebook</Col>
-                                    <Col>Instagram</Col>
-                                    <Col>Twitter</Col>
-                                    <Col>Send Mail</Col>
-                                    <Col>Call Us</Col>
+                                <Row >
+                                    <a className='nav-link' href='https://www.facebook.com/prasansanajaya' target='_blank'><Col className='caption-col'>Facebook</Col></a>
+                                    <a className='nav-link' href='https://www.instagram.com/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
+                                    <a className='nav-link' href='https://twitter.com/home?lang=en' target='_blank'><Col className='caption-col'>Twitter</Col></a>
+                                    <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Send Mail</Col></a>
+                                    
                                 </Row>
                             </Container>
                             <br />
@@ -51,12 +52,12 @@ class Home extends Component {
                             <h3 className='caption-text'>Read More <br />Live More</h3>
                             <Container>
 
-                                <Row className='caption-row'>
-                                    <Col>Facebook</Col>
-                                    <Col>Instagram</Col>
-                                    <Col>Twitter</Col>
-                                    <Col>Send Mail</Col>
-                                    <Col>Call Us</Col>
+                                <Row>
+                                    <a className='nav-link' href='https://www.facebook.com/prasansanajaya' target='_blank'><Col className='caption-col'>Facebook</Col></a>
+                                    <a className='nav-link' href='https://www.instagram.com/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
+                                    <a className='nav-link' href='https://twitter.com/home?lang=en' target='_blank'><Col className='caption-col'>Twitter</Col></a>
+                                    <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Send Mail</Col></a>
+                                    
                                 </Row>
                             </Container>
                             <br />
@@ -76,12 +77,12 @@ class Home extends Component {
                             <h3 className='caption-text'>Read More <br />Live More</h3>
                             <Container>
 
-                                <Row className='caption-row'>
-                                    <Col>Facebook</Col>
-                                    <Col>Instagram</Col>
-                                    <Col>Twitter</Col>
-                                    <Col>Send Mail</Col>
-                                    <Col>Call Us</Col>
+                                <Row>
+                                    <a className='nav-link' href='https://www.facebook.com/prasansanajaya' target='_blank'><Col className='caption-col'>Facebook</Col></a>
+                                    <a className='nav-link' href='https://www.instagram.com/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
+                                    <a className='nav-link' href='https://twitter.com/home?lang=en' target='_blank'><Col className='caption-col'>Twitter</Col></a>
+                                    <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Send Mail</Col></a>
+                                    
                                 </Row>
                             </Container>
                             <br />
