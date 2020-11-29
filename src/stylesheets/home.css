@@ -6,7 +6,9 @@ carousel-caption {
 
 .coverImage {
     height: 650px;
-    width: 100%;}
+    width: 110%;
+    
+}
   
 
 .caption-text {
@@ -34,5 +36,10 @@ carousel-caption {
     color:black;
     
     
+
+}
+.jumbotron {
+    margin-top: 0em;
+    margin-bottom: 0em;
 
 }

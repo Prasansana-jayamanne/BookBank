@@ -73,21 +73,17 @@ function App() {
   </Navbar.Collapse>
 </Navbar>
       </div> */}
-      <section id={'home'} >
-        <Home/>       </section>
+      <section id={'home'} >    <Home/>       </section>
 
-        <br/>
-        <br/><br/>
-
+        
       <section id={'books'} > <Books/> </section>
-      <hr/>
+      
       
       
       <section id={'addBooks'} ><Addbooks/> </section>
-      <hr/>
+      
       <section id={'contacts'}><Contacts/></section>
-      <hr/>
-      <br/>
+      
       <section id={'footer'}><Footer/></section>
 
     </div>

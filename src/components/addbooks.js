@@ -73,7 +73,7 @@ class Addbooks extends Component {
             db.collection('Books-Available').add({
                 Bookname: this.state.Bookname,
                 Author: this.state.Author,
-                Price: this.state.Price,
+                Price:'USD '+this.state.Price,
                 ISBN: this.state.ISBN,
     
             });

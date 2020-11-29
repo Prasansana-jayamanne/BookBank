@@ -13,7 +13,7 @@ import cover03 from '../images/cover03.jpg'
 class Home extends Component {
     render() {
         return (
-            <div className='jumbotrone'>
+            <div className='jumbotron'>
                 <Carousel>
                     <Carousel.Item interval={3000}>
                         <img
