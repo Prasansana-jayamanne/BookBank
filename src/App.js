@@ -32,7 +32,7 @@ function App() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                     <li className="nav-item mr-5 active">
-                        <a className="nav-link" href="#home">Home</a>
+                        <a className="navopacity nav-link" href="#home">Home</a>
                     </li>
                     <li className="nav-item mr-5">
                         <a className="nav-link " href="#books">Books</a>

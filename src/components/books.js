@@ -10,12 +10,7 @@ class Books extends Component {
 
     state = {
         books: [],
-        BookName: '',
-        Author: '',
-        Price: '',
-        ISBN: '',
-        Username: '',
-        Password: '',
+        
     }
 
 
@@ -30,13 +25,12 @@ class Books extends Component {
 
             })
         })
-
     }
 
     render() {
         return (
-            <div className='Books-Available jumbotron'>
-                <br /><br />
+            <div className='Books-Available jumbotron-fluid'>
+                <br /><br /><br /><br />
                 <h1 className='Bookcolor'>Books Available</h1>
                 <br />
                 <Row>
@@ -45,8 +39,8 @@ class Books extends Component {
                             return (
                                 <Col lg={3} md={6} xs={12} style={{ marginBottom: "30px" }} key={item}>
                                     <Card>
+                                        <Card.Header className='text-capitalize'><b>{item.Bookname}</b></Card.Header>
                                         <Card.Body className='text-capitalize'>
-                                            <p>{item.Bookname}</p>
                                             <p>{item.Author}</p>
                                             <p>{item.Price}</p>
                                             <p>{item.ISBN}</p>

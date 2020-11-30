@@ -1,6 +1,7 @@
 .Add-books {
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/addphoto.jpg);
-    color: white;
+   
+    background-image:url(../images/addphoto.jpg);
+    color: rgb(12, 10, 10);
     
 }
 

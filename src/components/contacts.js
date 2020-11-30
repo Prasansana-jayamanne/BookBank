@@ -8,7 +8,9 @@ import contactpic from "../images/contactpic.jpg";
 class Contacts extends Component {
     render() {
         return (
-            <div className='Contact-pic jumbotron'>
+            
+            
+            <div className='Contact-pic jumbotron-fluid'>
                 <br/>
                 <h1>Contact Details</h1>
 
@@ -37,11 +39,11 @@ class Contacts extends Component {
                         <br />
                         
                             <Row>
-                                <a className='nav-link' href='https://www.facebook.com/prasansanajaya' target='_blank'><Col className='caption-col'>Facebook</Col></a>
-                                <a className='nav-link' href='https://www.instagram.com/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
-                                <a className='nav-link' href='https://twitter.com/home?lang=en' target='_blank'><Col className='caption-col'>Twitter</Col></a>
-                                <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Send Mail</Col></a>
-                                <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Call Us</Col></a>
+                                <a className='nav-link' href='https://www.facebook.com/Book-Bank-103204604977295' target='_blank'><Col className='caption-col'>Facebook</Col></a>
+                                <a className='nav-link' href='https://www.youtube.com/user/GreatestAudioBooks' target='_blank'><Col className='caption-col'>Audio Books</Col></a>
+                                <a className='nav-link' href='https://www.instagram.com/_bookbank/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
+                                <a className='nav-link' href='https://twitter.com/BookBankAfrica' target='_blank'><Col className='caption-col'>Twitter</Col></a>
+                                <a className='nav-link' href='https://www.google.lk/maps/place/Barnes+Pl,+Colombo+00700/@6.9129727,79.8681518,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25976c1a3b561:0x6681f6e044a37b3f!8m2!3d6.9129727!4d79.8703405' target='_blank'><Col className='caption-col'>Location</Col></a>
                             </Row>
 
                         

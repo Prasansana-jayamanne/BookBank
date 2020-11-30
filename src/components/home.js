@@ -4,32 +4,36 @@ import { Carousel, Container, Col, Row } from 'react-bootstrap';
 
 import "../stylesheets/home.css";
 
-import cover01 from '../images/cover01.jpg'
-import cover02 from '../images/cover02.jpg'
-import cover03 from '../images/cover03.jpg'
+import covernew1 from '../images/covernew1.jpg'
+import covernew2 from '../images/covernew2.jpg'
+import covernew3 from '../images/covernew3.jpg'
 
 
 
 class Home extends Component {
     render() {
         return (
-            <div className='jumbotron'>
+            <div className='jumbotron-fluid'>
                 <Carousel>
                     <Carousel.Item interval={3000}>
                         <img
-                            src={cover01}
+                            src={covernew1}
                             alt="First slide"
                             className="coverImage"
                         />
+                       
                         <Carousel.Caption className='carousel-caption'>
                             <h3 className='caption-text'>Read More <br />Live More</h3>
+                            
+                            
                             <Container>
 
                                 <Row >
-                                    <a className='nav-link' href='https://www.facebook.com/prasansanajaya' target='_blank'><Col className='caption-col'>Facebook</Col></a>
-                                    <a className='nav-link' href='https://www.instagram.com/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
-                                    <a className='nav-link' href='https://twitter.com/home?lang=en' target='_blank'><Col className='caption-col'>Twitter</Col></a>
-                                    <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Send Mail</Col></a>
+                                    
+                                    <a className='nav-link' href='https://www.facebook.com/Book-Bank-103204604977295' target='_blank'><Col className='caption-col'>Facebook</Col></a>
+                                    <a className='nav-link' href='https://www.youtube.com/user/GreatestAudioBooks' target='_blank'><Col className='caption-col'>Audio Books</Col></a>
+                                    <a className='nav-link' href='https://www.instagram.com/_bookbank/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
+                                    <a className='nav-link' href='https://twitter.com/BookBankAfrica' target='_blank'><Col className='caption-col'>Twitter</Col></a>
                                     
                                 </Row>
                             </Container>
@@ -44,7 +48,7 @@ class Home extends Component {
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
                         <img
-                            src={cover02}
+                            src={covernew2}
                             alt="Second slide"
                             className='coverImage'
                         />
@@ -53,10 +57,10 @@ class Home extends Component {
                             <Container>
 
                                 <Row>
-                                    <a className='nav-link' href='https://www.facebook.com/prasansanajaya' target='_blank'><Col className='caption-col'>Facebook</Col></a>
-                                    <a className='nav-link' href='https://www.instagram.com/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
-                                    <a className='nav-link' href='https://twitter.com/home?lang=en' target='_blank'><Col className='caption-col'>Twitter</Col></a>
-                                    <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Send Mail</Col></a>
+                                    <a className='nav-link' href='https://www.facebook.com/Book-Bank-103204604977295' target='_blank'><Col className='caption-col'>Facebook</Col></a>
+                                    <a className='nav-link' href='https://www.youtube.com/user/GreatestAudioBooks' target='_blank'><Col className='caption-col'>Audio Books</Col></a>
+                                    <a className='nav-link' href='https://www.instagram.com/_bookbank/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
+                                    <a className='nav-link' href='https://twitter.com/BookBankAfrica' target='_blank'><Col className='caption-col'>Twitter</Col></a>
                                     
                                 </Row>
                             </Container>
@@ -65,12 +69,13 @@ class Home extends Component {
                             <br />
                             <br />
                             <br />
+                            
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
                         <img
                             className="coverImage"
-                            src={cover03}
+                            src={covernew3}
                             alt="Third slide"
                         />
                         <Carousel.Caption className='carousel-caption'>
@@ -78,10 +83,10 @@ class Home extends Component {
                             <Container>
 
                                 <Row>
-                                    <a className='nav-link' href='https://www.facebook.com/prasansanajaya' target='_blank'><Col className='caption-col'>Facebook</Col></a>
-                                    <a className='nav-link' href='https://www.instagram.com/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
-                                    <a className='nav-link' href='https://twitter.com/home?lang=en' target='_blank'><Col className='caption-col'>Twitter</Col></a>
-                                    <a className='nav-link' href='' target='_blank'><Col className='caption-col'>Send Mail</Col></a>
+                                    <a className='nav-link' href='https://www.facebook.com/Book-Bank-103204604977295' target='_blank'><Col className='caption-col'>Facebook</Col></a>
+                                    <a className='nav-link' href='https://www.youtube.com/user/GreatestAudioBooks' target='_blank'><Col className='caption-col'>Audio Books</Col></a>
+                                    <a className='nav-link' href='https://www.instagram.com/_bookbank/' target='_blank'><Col className='caption-col'>Instagram</Col></a>
+                                    <a className='nav-link' href='https://twitter.com/BookBankAfrica' target='_blank'><Col className='caption-col'>Twitter</Col></a>
                                     
                                 </Row>
                             </Container>

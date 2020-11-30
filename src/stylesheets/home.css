@@ -1,21 +1,18 @@
-carousel-caption {
-    top:0 ;
+.carousel-caption {
+    top:150px ;
     
 }
-
 
 .coverImage {
-    height: 650px;
+    height: 710px;
     width: 110%;
-    
 }
   
-
 .caption-text {
    font-size : 100px;
-   color:white;
-   
+   color:white; 
 }
+
 .caption-col {
     font-size: 20px;
     color:white;
@@ -24,22 +21,18 @@ carousel-caption {
     border: 1px solid white;
     display: inline-block;
     border: none;
-    padding: 7px;
+    padding: 10px;
     padding-bottom: 7px;
     margin-left: 25px;
-    
-
-    
 }
+
 .caption-col:hover{
-    background-color:rgb(156, 84, 2);
+    background-color:rgb(255, 255, 255);
     color:black;
-    
-    
-
 }
+
 .jumbotron {
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }

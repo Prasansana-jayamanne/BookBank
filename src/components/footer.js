@@ -6,6 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <div className='Footer'>
+                <br/>
                 <Container>
                     <Row className='my-auto'>
                         <Col>Book reading Access&#169; Copyright</Col>
