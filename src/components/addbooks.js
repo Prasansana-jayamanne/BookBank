@@ -45,7 +45,7 @@ class Addbooks extends Component {
 
     }
 
-    validatefield =() => {
+    validatefield = () => {
         this.setState({BooknameError: this.state.Bookname.length> 0 ? null : 'Bookname is required!'});
         this.setState({AuthorError: this.state.Author.length> 0 ? null : 'Author is required!'});
         this.setState({PriceError: this.state.Price.length> 0 ? null : 'Price is required!'});
